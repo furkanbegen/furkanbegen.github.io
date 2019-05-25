@@ -1,1 +1,0 @@
-#Furkan Beğen Kişisel Blog
