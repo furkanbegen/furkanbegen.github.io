@@ -24,6 +24,7 @@ twitter_username: furkanbegen
 github_username:  furkanbegen
 linkedin_username: furkanbegen
 permalink: :title
+google_analytics: UA-30222081-6
 
 # Build settings
 markdown: kramdown
