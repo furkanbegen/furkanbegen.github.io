@@ -19,13 +19,24 @@ description: >- # this means to ignore newlines until "baseurl:"
   Bir Java'cının maceralarını anlatan, çoğunlukla yazılım ile ilgili içeriklerin olduğu 
   kişisel blog sitesi
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.furkanbegen.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: furkanbegen
 github_username:  furkanbegen
 linkedin_username: furkanbegen
 permalink: :title
 google_analytics: UA-30222081-6
 google_site_verification: 6U5WSJqpTUiA7K39UTBYdLVf2fT8rXMkQNIM4DzIBH4
+twitter:
+  username: furkanbegen
+  card: summary
+social:
+  name: Furkan Beğen
+  links:
+    - https://twitter.com/furkanbegen
+    - https://www.facebook.com/furkanbegen
+    - https://www.linkedin.com/in/furkanbegen
+    - https://github.com/furkanbegen
+lang: tr_TR
 
 # Build settings
 markdown: kramdown
