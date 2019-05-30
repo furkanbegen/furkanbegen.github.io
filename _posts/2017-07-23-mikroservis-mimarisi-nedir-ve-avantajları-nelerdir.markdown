@@ -17,7 +17,7 @@ Yukarıdaki tanım mikroservislerin tam olarak ne olduğunu anlamanız için yet
 
 Yukarıdaki resimde de gördüğünüz gibi geleneksel bir uygulamada veritabanı ile ilişki kurmak için bir Repository katmanı, kullanım senaryolarını (use case) implemente ettiğimiz Service katmanı ve Controller katmanımız bulunuyor.
 
-![image-title-here](/assets/img/imgmonolitik-uygulama.png)
+![Monolitik Uygulama](/assets/img/monolitik-uygulama.png)
 
 Bu katmanlara yakından bakacak olursak daha fazla detay görebiliriz. Uygulamamızda Arama, Yorumlar, Sepet gibi sayfalar için birçok Controller olduğunu görüyoruz.
 Servis katmanı kullanım senaryolarımızı (use case) modellemeye çalışıyor. Arama, Katalog, Yorumlar, Sepet gibi özellikleri kontrol etmek için ayrı ayrı servislerimiz var.
