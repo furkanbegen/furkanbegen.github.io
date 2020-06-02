@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Go Synax ve Tipler"
+description: "Go dilinin temel söz dizimi(syntax) yapısı ve dil ile beraber gelen tipler(types)" 
 date: 2020-06-02
 categories: genel
 tags: [go, golang]
