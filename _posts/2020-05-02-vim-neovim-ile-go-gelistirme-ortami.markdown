@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Vim/Neovim ile Go geliştirme ortamı"
+title: "Vim/Neovim ile Go Geliştirme Ortamı"
 date: 2020-05-02
 categories: genel
-tags: [vim, neovim, vim-go, golanf]
+tags: [vim, neovim, vim-go, golang]
 ---
 
 Bu yazıda VIM ile Go programlama dili için gerekli kurulumları nasıl yaparız onu anlatacağım.
