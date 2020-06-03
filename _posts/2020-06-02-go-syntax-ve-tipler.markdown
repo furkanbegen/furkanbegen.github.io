@@ -38,7 +38,7 @@ Yukarıdaki örnekte **s** değişkeninin tipi **string** **i** değişkeninin t
 <br>Go dilinde aynı satırda birden bazşa değişken ataması yapabilirsiniz.
 
 {% highlight go %}
-h,j,k,l := ture, "Furkan", 2.05, 25
+h,j,k,l := true, "Furkan", 2.05, 25
 {% endhighlight %}
 
 Çoklu atama yaparken aynı satırda atama yaptığımız değişlenlerin tiplerinin aynı olması gerekmez.  
