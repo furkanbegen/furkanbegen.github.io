@@ -30,12 +30,12 @@ s := "Furkan"
 i := 2
 {% endhighlight %}
 
-Kısa değişken tanımlama yöntemi ile değişken tanumladığımızda değişkenin tipi, atadığımız değer ne ise o olur. 
-Yukarıdaki örnekte **s** değişkeninin tipi **string** **i** değişkeninin tipi **int** dir
+Kısa değişken tanımlama yöntemi ile değişken tanımladığımızda değişkenin tipi, atadığımız değer ne ise o olur. 
+Yukarıdaki örnekte **s** değişkeninin tipi **string**, **i** değişkeninin tipi **int** dir
 
 # Çoklu Atama
 ***
-<br>Go dilinde aynı satırda birden bazşa değişken ataması yapabilirsiniz.
+<br>Go dilinde aynı satırda birden fazla değişken ataması yapabilirsiniz.
 
 {% highlight go %}
 h,j,k,l := true, "Furkan", 2.05, 25
@@ -61,7 +61,7 @@ Go dilinde tiplerin ön tanımlı değerleri olması dolayısıyla bazı dillerd
 
 ## İsimlendirme Kuralları
 ***
-<br>Go dilinde depişkenleri isimlendirmek oldukça esnek olsa da bazı kurallar vardır.
+<br>Go dilinde değişkenleri isimlendirmek oldukça esnek olsa da bazı kurallar vardır.
 
 - Değişken isimleri tek kelime olmalıdır(boşluk yok)
 - Değişken isimlerinde harf, rakam ve alt tire olabilir
@@ -73,13 +73,13 @@ Go dilinde tiplerin ön tanımlı değerleri olması dolayısıyla bazı dillerd
 |:-------:|:-------------:|:---------------------------------:|
 | userName |  user-name    | tire kullanılamaz                 |
 | user1    |  1user        | değişlenler rakam ile başlayamaz  |
-| user     |  $user        | değişkenlerde sembol kullanulamaz |
+| user     |  $user        | değişkenlerde sembol kullanılamaz |
 
-Bir diğer önemli nokta büüyk küçük harf duyarlılığıdır. Yani **userName**, **UserName** ve **USERNAME** bitbirinden farklı değişlenlerdir
+Bir diğer önemli nokta büyük küçük harf duyarlılığıdır. Yani **userName**, **UserName** ve **USERNAME** bitbirinden farklı değişlenlerdir
 
 ## İsimlendirme Stili
 ***
-<br>Go dilinde değişkennlere kısa isim vermek yaygındır. **user** ve **userName** arasında bir seçim yapılacaksa, seçiminiz **user** olsun
+<br>Go dilinde değişkenlere kısa isim vermek yaygındır. **user** ve **userName** arasında bir seçim yapılacaksa, seçiminiz **user** olsun
 
 *Örnekler*
 
@@ -107,7 +107,6 @@ int, uint, uintptr
 ***
 <br>Compile zamanında eğer compiler bir değişkene atanan değerin, o değişken tipinin max değerinden büyük olduğunu saptarsa 
 **owerflow error** fırlatır
-*İmplementasyona özgü tipler*
 {% highlight go %}
 var maxUint32 := 4294967295 // Max Uint32 size
 fmt.Println(maxUint32)
@@ -117,7 +116,7 @@ başarılı bir şekilde derlenir ve ekrana *4294967295* yazar
 {% highlight go %}
 fmt.Println(maxUint32 + 1)
 {% endhighlight %}
-runtime da  1 eklerek **wraparound** olur ve ekrana 0(sıfır) yazar
+runtime da  1 eklersek **wraparound** olur ve ekrana 0(sıfır) yazar
 
 {% highlight go %}
 var maxUint32 := 4294967295 // Max Uint32 size
@@ -128,8 +127,8 @@ compile olmaz.
 
 ## Stringler
 ***
-<br>Eğer string oluştururken tek tırnak (') kullabursak bir raw string oluşturmuş oluruz.
-Eğer çift tırnak (") kıllanırsak bir interpreted string oluşturmuş oluruz
+<br>Eğer string oluştururken tek tırnak (') kullanırsak bir raw string oluşturmuş oluruz.
+Eğer çift tırnak (") kullanırsak bir interpreted string oluşturmuş oluruz
 
 {% highlight go %}
 s1 := 'Raw string'
@@ -158,7 +157,7 @@ const (
 )
 {% endhighlight %}
 
-Değerleri ekrana yazdırırsan çıktısı aşağıdaki gibi olur.   
+Değerleri ekrana yazdırırsak çıktısı aşağıdaki gibi olur.   
 Apple = 1
 Orange = 2
 Banana = 3
