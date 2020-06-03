@@ -20,7 +20,7 @@ var i int
 Ayrıca değişkeni tanımlarken tanımladığımız değişkene değer atayabiliriz
 
 {% highlight go %}
-var i int
+var i int = 0
 {% endhighlight %}
 
 Go dilinde değişken tanımlarken kısa değişken tanımlama yöntemini de kullanabiliriz
