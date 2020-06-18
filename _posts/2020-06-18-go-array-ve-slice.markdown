@@ -2,7 +2,7 @@
 layout: post
 title: "Go Array ve Slice"
 description: "Go dilinin array ve slice veri tipleri"
-date: 2020-06-02
+date: 2020-06-18
 categories: genel
 tags: [go, golang]
 ---
