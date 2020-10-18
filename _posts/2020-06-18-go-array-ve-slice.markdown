@@ -73,8 +73,8 @@ Go dilinde array ler fonksiyon parametresi ve dönüş değeri olarak nadiren ku
 
 
 {% highlight go %}
-s := []string
-i := []int
+s := []string{}
+i := []int{}
 {% endhighlight %}
 
 *len* fonksiyonu slice ın kaç elemana sahip olduğu söyler, *cap* fonksiyonu ise slice ın kapasitesini, bir başka deyişle slice ın kaç tane elemana sahip olabileceğini söyler.
